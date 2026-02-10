@@ -180,9 +180,6 @@ export default function AdminPage() {
         <main className="relative min-h-screen bg-[#0a0a0a] overflow-hidden">
             <div className="absolute inset-0 bg-gradient-radial from-yellow-600/15 via-black to-black" />
             <div className="relative z-10 max-w-7xl mx-auto px-6 py-14 space-y-14">
-
-                import Link from 'next/link';
-
                 {/* HEADER */}
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-6">
                     {/* LEFT */}
@@ -302,4 +299,5 @@ export default function AdminPage() {
             </div>
         </main>
     );
+
 }
