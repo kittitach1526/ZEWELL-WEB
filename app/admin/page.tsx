@@ -1,5 +1,7 @@
 'use client';
+export const dynamic = 'force-dynamic';
 
+// ... โค้ดที่เหลือของคุณ
 import { useState, useEffect } from 'react'; // เพิ่ม useEffect
 import Link from 'next/link';
 import { Member, Admin } from '@/types';
