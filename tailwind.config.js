@@ -1,10 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     content: [
-        './pages/**/*.{js,ts,jsx,tsx,mdx}',
-        './components/**/*.{js,ts,jsx,tsx,mdx}',
-        './app/**/*.{js,ts,jsx,tsx,mdx}',
-    ],
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
     theme: {
         extend: {
             /* ===============================
@@ -21,9 +20,9 @@ module.exports = {
                FONT FAMILY (Next Font Variables)
             =============================== */
             fontFamily: {
-                prompt: ['var(--font-prompt)'],
-                fugaz: ['var(--font-fugaz)'],
-                onest: ['var(--font-onest)'],
+                prompt: ['Prompt', 'sans-serif'],
+                fugaz: ['"Fugaz One"', 'sans-serif'],
+                onest: ['Onest', 'sans-serif'],
             },
 
             /* ===============================
